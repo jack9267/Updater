@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{cf4608bb-1655-4229-a520-e8d32b157526}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Spec">
+      <UniqueIdentifier>{242f3872-8109-4686-9f49-2911b6597d72}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Precomp.h">
+      <Filter>Spec</Filter>
+    </ClInclude>
+    <ClInclude Include="7z.h" />
+    <ClInclude Include="7zAlloc.h" />
+    <ClInclude Include="7zBuf.h" />
+    <ClInclude Include="7zCrc.h" />
+    <ClInclude Include="7zFile.h" />
+    <ClInclude Include="7zTypes.h" />
+    <ClInclude Include="Bcj2.h" />
+    <ClInclude Include="Bra.h" />
+    <ClInclude Include="CpuArch.h" />
+    <ClInclude Include="Delta.h" />
+    <ClInclude Include="Lzma2Dec.h" />
+    <ClInclude Include="LzmaDec.h" />
+    <ClInclude Include="Ppmd.h" />
+    <ClInclude Include="Ppmd7.h" />
+    <ClInclude Include="Compiler.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Precomp.c">
+      <Filter>Spec</Filter>
+    </ClCompile>
+    <ClCompile Include="7zAlloc.c" />
+    <ClCompile Include="7zArcIn.c" />
+    <ClCompile Include="7zBuf.c" />
+    <ClCompile Include="7zCrc.c" />
+    <ClCompile Include="7zCrcOpt.c" />
+    <ClCompile Include="7zDec.c" />
+    <ClCompile Include="7zFile.c" />
+    <ClCompile Include="7zStream.c" />
+    <ClCompile Include="Bcj2.c" />
+    <ClCompile Include="Bra.c" />
+    <ClCompile Include="Bra86.c" />
+    <ClCompile Include="BraIA64.c" />
+    <ClCompile Include="CpuArch.c" />
+    <ClCompile Include="Delta.c" />
+    <ClCompile Include="Lzma2Dec.c" />
+    <ClCompile Include="LzmaDec.c" />
+    <ClCompile Include="Ppmd7.c" />
+    <ClCompile Include="Ppmd7Dec.c" />
+  </ItemGroup>
+</Project>
